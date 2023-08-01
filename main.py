@@ -7,7 +7,7 @@ with open("file1.txt") as f1, open("file2.txt") as f2:
             print(f"Файл 1: {lines1[i]} \nФайл 2: {lines2[i]}")
 
    # 2
-vowels = set("aeiouAEIOU")  # почему-то при вводе русских гласных букв подсчет некорректный
+vowels = set("aeiouAEIOU")  # 
 chars = 0
 lines = 0
 vowel_count = 0
